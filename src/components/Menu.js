@@ -106,7 +106,7 @@ class Menu extends Component {
         return (
             <div>
               
-           <div className="goal-form" style={{width:'650px',height:'300px',marginLeft:'100px'}} >
+           <div className="goal-form" style={{width:'650px',height:'300px',marginLeft:'30%'}} >
            <span className="login-signup-header">Add Menu Item</span>
             {error && <div className="alert error-dailog">{error}</div>}
             
@@ -152,7 +152,7 @@ class Menu extends Component {
         </div>
 
          
-              <div style={{marginLeft:'57px',width:'650px'}}>
+              <div style={{marginLeft:'23%',width:'650px'}}>
         {menu.map((menu) => (
           <Job1 menu={menu} />
         ))}
