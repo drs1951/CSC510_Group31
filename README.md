@@ -8,16 +8,16 @@ Video Link: https://drive.google.com/file/d/14tvrl4LfxWW0VsE-N8iKk8NzE6SDp5Ua/vi
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 [![Build Status](https://app.travis-ci.com/shantanu109/CSC510_Group25_Project1.svg?branch=main)](https://app.travis-ci.com/shantanu109/CSC510_Group25_Project1)
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
-[![Issues](https://img.shields.io/github/issues/shantanu109/CSC510_Group25_Project1)](https://GitHub.com/shantanu109/CSC510_Group25_Project1/)
-[![Issues Closed](https://img.shields.io/github/issues-closed/shantanu109/CSC510_Group25_Project1)](https://GitHub.com/shantanu109/CSC510_Group25_Project1/)
-![last commit](https://img.shields.io/github/last-commit/shantanu109/CSC510_Group25_Project1)
+[![Issues](https://img.shields.io/github/issues/drs1951/CSC510_Group31)](https://GitHub.com/drs1951/CSC510_Group31/)
+[![Issues Closed](https://img.shields.io/github/issues-closed/drs1951/CSC510_Group31)](https://GitHub.com/drs1951/CSC510_Group31/)
+![last commit](https://img.shields.io/github/last-commit/drs1951/CSC510_Group31)
 ![total lines](https://img.shields.io/tokei/lines/github/shantanu109/CSC510_Group25_Project1)
 ![GitHub branch checks state](https://img.shields.io/github/checks-status/shantanu109/CSC510_Group25_Project1/main)[![Repo-size](https://img.shields.io/github/repo-size/shantanu109/CSC510_Group25_Project1)](https://GitHub.com/shantanu109/CSC510_Group25_Project1/)
-[![file_count](https://img.shields.io/github/directory-file-count/shantanu109/CSC510_Group25_Project1)](https://GitHub.com/shantanu109/CSC510_Group25_Project1/)
-[![language_count](https://img.shields.io/github/languages/count/shantanu109/CSC510_Group25_Project1)](https://GitHub.com/shantanu109/CSC510_Group25_Project1/)
-![GitHub all releases](https://img.shields.io/github/downloads/shantanu109/CSC510_Group25_Project1/total)
-[![Top Language](https://img.shields.io/github/languages/top/shantanu109/CSC510_Group25_Project1)](https://GitHub.com/shantanu109/CSC510_Group25_Project1/)
-[![Version](https://img.shields.io/github/package-json/v/shantanu109/CSC510_Group25_Project1)](https://GitHub.com/shantanu109/CSC510_Group25_Project1/)
+[![file_count](https://img.shields.io/github/directory-file-count/drs1951/CSC510_Group31)](https://GitHub.com/drs1951/CSC510_Group31/)
+[![language_count](https://img.shields.io/github/languages/count/drs1951/CSC510_Group31)](https://GitHub.com/drs1951/CSC510_Group31/)
+
+[![Top Language](https://img.shields.io/github/languages/top/drs1951/CSC510_Group31)](https://GitHub.com/drs1951/CSC510_Group31/)
+[![Version](https://img.shields.io/github/package-json/v/drs1951/CSC510_Group31)](https://GitHub.com/drs1951/CSC510_Group31/)
 [![Release](https://img.shields.io/github/v/release/shantanu109/wolfjobs)](https://GitHub.com/shantanu109/CSC510_Group25_Project1/)
 ![Build Status](https://github.com/ashakhatri007/CSC510_Group25_Project1/workflows/npm-build/badge.svg)
 [![codecov](https://raw.githubusercontent.com/shantanu109/CSC510_Group25_Project1/711b55a047c10fab6bdf3da57b436a0163f475d6/coverage/badge-lines.svg)](https://github.com/shantanu109/CSC510_Group25_Project1/blob/main/coverage/)
@@ -38,8 +38,6 @@ In addition, our product will have an analytics page that will be able to displa
 and amount of waste per month. This product will allow restaurants to become more profitable while also
 being beneficial to the planet as there will be less waste generated in the restaurant industry.
 
-## 📹 Watch this video to know more about our product:
-https://user-images.githubusercontent.com/42051115/135004434-50d95b77-87a3-4c18-8d35-b680c63239b0.mp4
 
 ## Technologies we used:
  - ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -51,42 +49,69 @@ https://user-images.githubusercontent.com/42051115/135004434-50d95b77-87a3-4c18-
 
 ## 🚅 Demo:
 ### Our Home Page
-![WhatsApp Image 2021-12-04 at 6 22 11 PM](https://user-images.githubusercontent.com/89566418/144727619-6768d86f-031b-4abe-981b-7baf3360616a.jpeg)
+![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/02f4c5ef-6b7f-4bf8-808e-2f94ba911baf)
+
 
 
 ### Every Restaurant will create an account with our application through the sign-up page and login
 
-![WhatsApp Image 2021-12-04 at 6 03 47 PM (2)](https://user-images.githubusercontent.com/89566418/144727355-8f862ecf-9fbf-4449-a352-ff21c50effdc.jpeg)
+![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/755fecb4-cab9-483a-8807-c52f56823cc2)
 
-![WhatsApp Image 2021-12-04 at 6 03 47 PM](https://user-images.githubusercontent.com/89566418/144727272-d3fab7eb-a809-4ed2-b78c-2e74326d8e77.jpeg)
+![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/a9b7ee5a-05c5-4632-93e1-d9c6d0493c66)
 
 
 ### After signing up, the user can view the menu and see the currently available dishes
 
-![WhatsApp Image 2021-12-04 at 6 11 06 PM](https://user-images.githubusercontent.com/89566418/144727408-b083ee4f-74ca-4285-999b-4e2d020d94c4.jpeg)
+![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/6241179f-c6be-4488-a1c5-357c9f91e509)
 
-### If new dishes are available to the users, the employees can add them on the menu by clicking on the "Add new Menu Item" button
-![WhatsApp Image 2021-12-04 at 6 14 38 PM](https://user-images.githubusercontent.com/89566418/144727463-68cd58ed-52fb-48a4-9cf2-6bba9cbad8a8.jpeg)
+### Add Menu
+
+![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/5fa2f824-4366-41eb-8cc4-0f177b7c402f)
+
+### Add Inventory
+
+![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/2f00d754-6870-4e95-87b4-0b8613ae2a61)
+
+### View Inventory
+
+![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/5a4823f3-820e-4057-8648-1536840576de)
+
+### Add Items in Menu
+
+![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/37821df1-977d-4202-99ad-ac3d80e40df0)
+
+### Add Menu
+
+![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/9368f477-74d1-4213-ba1d-0fc8688fc031)
+
+### Place Order
+
+![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/d464e6ca-5e8b-420a-9daf-5f4a7af235c5)
+
+![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/c6820d40-876a-4e71-b844-337b8936698c)
+
+![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/952c1d01-50cd-440b-98d2-dd35b6b0ea43)
+
+### Watch quantity being reduced
+
+![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/03bf4c46-18f1-4525-a288-36394460218a)
+
+### Menu Item analytics
+
+![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/76387c5e-7795-4d02-8339-116302a8a0f4)
+
+![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/c9daebbe-53e5-4908-9434-221b28a62cf8)
+
+### Raw material analytics
+
+![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/7abb36cf-f41d-4167-9e3d-b813115729b3)
+
+![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/edcad4a3-42f4-4bcb-ab85-963a55c9117c)
+
+### Profile Page
+![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/1a6c17f5-adeb-433c-9615-620079360a49)
 
 
-### After signing up, the user can also check the inventory that they currently have left
-![WhatsApp Image 2021-12-04 at 6 16 27 PM](https://user-images.githubusercontent.com/89566418/144727496-9f42e80f-3d94-4064-ad4a-bda59c8d635d.jpeg)
-
-
-### The user can add new Inventory items by clicking on the "Add new Inventory Item" button
-![WhatsApp Image 2021-12-04 at 6 03 47 PM](https://user-images.githubusercontent.com/89566418/144727495-ebfe7cb0-8e10-454c-b67d-ea104b23efa7.jpeg)
-
-
-### When certain ingredients are running low or about to expire, they will be notified
-![WhatsApp Image 2021-12-04 at 6 18 34 PM (1)](https://user-images.githubusercontent.com/89566418/144727550-7a3f2def-ca4c-45c5-bec6-249334c55697.jpeg)
-
-
-### The user may go to the analytics page to see analysis of how their restaurant is doing monthly
-![WhatsApp Image 2021-12-04 at 6 18 34 PM](https://user-images.githubusercontent.com/89566418/144727535-bbbc1eec-e8d6-4ab6-a2a4-f5edcadf6cbe.jpeg)
-
-
-### The user may also update password
-![WhatsApp Image 2021-12-04 at 6 20 17 PM](https://user-images.githubusercontent.com/89566418/144727574-b4f5f7d0-fe57-4ea8-96f9-c3bb48f382b6.jpeg)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -179,7 +204,7 @@ npm start
  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  ## Run Test cases
 
- ### [Frontend Test Cases Guide]()
+ ### [Frontend Test Cases Guide](https://github.com/drs1951/CSC510_Group31/blob/main/docs/frontend_testing.md)
  ### [Backend Test Cases Guide](https://github.com/drs1951/86_Backend/blob/main/docs/backend_teting.md)
  
 
