@@ -15,10 +15,8 @@ Video Link: https://drive.google.com/file/d/14tvrl4LfxWW0VsE-N8iKk8NzE6SDp5Ua/vi
 ![GitHub branch checks state](https://img.shields.io/github/checks-status/shantanu109/CSC510_Group25_Project1/main)[![Repo-size](https://img.shields.io/github/repo-size/shantanu109/CSC510_Group25_Project1)](https://GitHub.com/shantanu109/CSC510_Group25_Project1/)
 [![file_count](https://img.shields.io/github/directory-file-count/drs1951/CSC510_Group31)](https://GitHub.com/drs1951/CSC510_Group31/)
 [![language_count](https://img.shields.io/github/languages/count/drs1951/CSC510_Group31)](https://GitHub.com/drs1951/CSC510_Group31/)
-
 [![Top Language](https://img.shields.io/github/languages/top/drs1951/CSC510_Group31)](https://GitHub.com/drs1951/CSC510_Group31/)
 [![Version](https://img.shields.io/github/package-json/v/drs1951/CSC510_Group31)](https://GitHub.com/drs1951/CSC510_Group31/)
-[![Release](https://img.shields.io/github/v/release/shantanu109/wolfjobs)](https://GitHub.com/shantanu109/CSC510_Group25_Project1/)
 ![Build Status](https://github.com/ashakhatri007/CSC510_Group25_Project1/workflows/npm-build/badge.svg)
 [![codecov](https://raw.githubusercontent.com/shantanu109/CSC510_Group25_Project1/711b55a047c10fab6bdf3da57b436a0163f475d6/coverage/badge-lines.svg)](https://github.com/shantanu109/CSC510_Group25_Project1/blob/main/coverage/)
 [![unit_tests](https://github.com/ashakhatri007/CSC510_Group25_Project1/actions/workflows/QtyCalcTests.yml/badge.svg)](https://github.com/CSC510-Group-25/CSC510_Group25_Project1/actions/workflows/QtyCalcTests.yml)
