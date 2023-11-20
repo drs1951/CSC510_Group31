@@ -47,77 +47,77 @@ being beneficial to the planet as there will be less waste generated in the rest
 
 ## 🚅 Demo:
 ### Our Home Page
-![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/02f4c5ef-6b7f-4bf8-808e-2f94ba911baf)
+![image](https://github.com/MadhurDixit13/86_No_More_FrontEnd/assets/85347670/02f4c5ef-6b7f-4bf8-808e-2f94ba911baf)
 
 
 
 ### Every Restaurant will create an account with our application through the sign-up page and login
 
-![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/755fecb4-cab9-483a-8807-c52f56823cc2)
+![image](https://github.com/MadhurDixit13/86_No_More_FrontEnd/assets/85347670/755fecb4-cab9-483a-8807-c52f56823cc2)
 
-![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/a9b7ee5a-05c5-4632-93e1-d9c6d0493c66)
+![image](https://github.com/MadhurDixit13/86_No_More_FrontEnd/assets/85347670/a9b7ee5a-05c5-4632-93e1-d9c6d0493c66)
 
 
 ### After signing up, the user can view the menu and see the currently available dishes
 
-![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/6241179f-c6be-4488-a1c5-357c9f91e509)
+![image](https://github.com/MadhurDixit13/86_No_More_FrontEnd/assets/85347670/6241179f-c6be-4488-a1c5-357c9f91e509)
 
 ### Add Menu
 
-![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/5fa2f824-4366-41eb-8cc4-0f177b7c402f)
+![image](https://github.com/MadhurDixit13/86_No_More_FrontEnd/assets/85347670/5fa2f824-4366-41eb-8cc4-0f177b7c402f)
 
 ### Add Inventory
 
-![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/2f00d754-6870-4e95-87b4-0b8613ae2a61)
+![image](https://github.com/MadhurDixit13/86_No_More_FrontEnd/assets/85347670/2f00d754-6870-4e95-87b4-0b8613ae2a61)
 
 ### View Inventory
 
-![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/5a4823f3-820e-4057-8648-1536840576de)
+![image](https://github.com/MadhurDixit13/86_No_More_FrontEnd/assets/85347670/5a4823f3-820e-4057-8648-1536840576de)
 
 ### Add Items in Menu
 
-![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/37821df1-977d-4202-99ad-ac3d80e40df0)
+![image](https://github.com/MadhurDixit13/86_No_More_FrontEnd/assets/85347670/37821df1-977d-4202-99ad-ac3d80e40df0)
 
 ### Add Menu
 
-![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/9368f477-74d1-4213-ba1d-0fc8688fc031)
+![image](https://github.com/MadhurDixit13/86_No_More_FrontEnd/assets/85347670/9368f477-74d1-4213-ba1d-0fc8688fc031)
 
 ### Place Order
 
-![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/d464e6ca-5e8b-420a-9daf-5f4a7af235c5)
+![image](https://github.com/MadhurDixit13/86_No_More_FrontEnd/assets/85347670/d464e6ca-5e8b-420a-9daf-5f4a7af235c5)
 
-![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/c6820d40-876a-4e71-b844-337b8936698c)
+![image](https://github.com/MadhurDixit13/86_No_More_FrontEnd/assets/85347670/c6820d40-876a-4e71-b844-337b8936698c)
 
-![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/952c1d01-50cd-440b-98d2-dd35b6b0ea43)
+![image](https://github.com/MadhurDixit13/86_No_More_FrontEnd/assets/85347670/952c1d01-50cd-440b-98d2-dd35b6b0ea43)
 
 ### Watch quantity being reduced
 
-![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/03bf4c46-18f1-4525-a288-36394460218a)
+![image](https://github.com/MadhurDixit13/86_No_More_FrontEnd/assets/85347670/03bf4c46-18f1-4525-a288-36394460218a)
 
 ### Menu Item analytics
 
-![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/76387c5e-7795-4d02-8339-116302a8a0f4)
+![image](https://github.com/MadhurDixit13/86_No_More_FrontEnd/assets/85347670/76387c5e-7795-4d02-8339-116302a8a0f4)
 
-![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/c9daebbe-53e5-4908-9434-221b28a62cf8)
+![image](https://github.com/MadhurDixit13/86_No_More_FrontEnd/assets/85347670/c9daebbe-53e5-4908-9434-221b28a62cf8)
 
 ### Raw material analytics
 
-![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/7abb36cf-f41d-4167-9e3d-b813115729b3)
+![image](https://github.com/MadhurDixit13/86_No_More_FrontEnd/assets/85347670/7abb36cf-f41d-4167-9e3d-b813115729b3)
 
-![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/edcad4a3-42f4-4bcb-ab85-963a55c9117c)
+![image](https://github.com/MadhurDixit13/86_No_More_FrontEnd/assets/85347670/edcad4a3-42f4-4bcb-ab85-963a55c9117c)
 
 ### Profile Page
-![image](https://github.com/drs1951/CSC510_Group31/assets/85347670/1a6c17f5-adeb-433c-9615-620079360a49)
+![image](https://github.com/MadhurDixit13/86_No_More_FrontEnd/assets/85347670/1a6c17f5-adeb-433c-9615-620079360a49)
 
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Source Code
- - Link to frontend repository: https://github.com/drs1951/CSC510_Group31
- - Link to backend repository: https://github.com/drs1951/86_Backend
+ - Link to frontend repository: [Front End](https://github.com/MadhurDixit13/86_No_More_FrontEnd)
+ - Link to backend repository: [Back End](https://github.com/MadhurDixit13/86_No_More_BackEnd)
 
-**\* To know the complete working of API used in the backend [click here](https://github.com/drs1951/86_Backend/blob/main/docs/api.md)**
+**\* To know the complete working of API used in the backend [click here](https://github.com/MadhurDixit13/86_No_More_BackEnd/blob/main/docs/api.md)**
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -133,7 +133,7 @@ being beneficial to the planet as there will be less waste generated in the rest
 
 ## Frontend Installation Guide
 
-### Step 1: Clone [this](https://github.com/drs1951/CSC510_Group31) Repository
+### Step 1: Clone [this](https://github.com/MadhurDixit13/86_No_More_FrontEnd) Repository
 
 ```
 git clone [repository_url]
@@ -176,7 +176,7 @@ npm start
 
 ## Backend Installation Guide
 
-### Step 1: Clone [this](https://github.com/drs1951/86_Backend) Repository
+### Step 1: Clone [this](https://github.com/MadhurDixit13/86_No_More_BackEnd) Repository
 
 ```
 git clone [repository_url]
@@ -202,8 +202,8 @@ npm start
  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  ## Run Test cases
 
- ### [Frontend Test Cases Guide](https://github.com/drs1951/CSC510_Group31/blob/main/docs/frontend_testing.md)
- ### [Backend Test Cases Guide](https://github.com/drs1951/86_Backend/blob/main/docs/backend_teting.md)
+ ### [Frontend Test Cases Guide](https://github.com/MadhurDixit13/86_No_More_FrontEnd/blob/main/docs/frontend_testing.md)
+ ### [Backend Test Cases Guide](https://github.com/MadhurDixit13/86_No_More_BackEnd/blob/main/docs/backend_testing.md)
  
 
 
@@ -212,7 +212,7 @@ The project is not currently funded
 
 ## 🌠 Future
 
-See RoadMap here: [https://github.com/shantanu109/CSC510_Group25_Project1/projects/1](https://github.com/drs1951/CSC510_Group31/issues/34)
+See RoadMap here: [RoadMap](https://github.com/MadhurDixit13/86_No_More_FrontEnd/issues/34)
 
 ## Troubleshooting
 
@@ -222,10 +222,10 @@ If you encounter any issues during the installation process, feel free to reach 
 # Contributors
   <table>
   <tr>
-    <td align="center"><a href="https://github.com/shantanu109"><img src="https://avatars.githubusercontent.com/u/54364517?v=4" width="100px;" alt=""/><br /><sub><b>Devansh Shah</b></sub></a></td>
-    <td align="center"><a href="https://github.com/gargvarun250"><img src="https://avatars.githubusercontent.com/u/57554284?v=4" width="100px;" alt=""/><br /><sub><b>Shyamal Gandhi</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/Sahil-Nande"><img src="https://avatars.githubusercontent.com/u/59785863?v=4" width="100px;" alt=""/><br /><sub><b>Jay Patel</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/urmi6899"><img src="https://avatars.githubusercontent.com/u/85347670?v=4" width="100px;" alt=""/><br /><sub><b>Shail Shah</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/MadhurDixit13"><img src="https://avatars.githubusercontent.com/u/54364517?v=4" width="100px;" alt=""/><br /><sub><b>Madhur Dixit</b></sub></a></td>
+    <td align="center"><a href="https://github.com/ATHARVA47"><img src="https://avatars.githubusercontent.com/u/57554284?v=4" width="100px;" alt=""/><br /><sub><b>Atharv Kale</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Kohav-Yadav"><img src="https://avatars.githubusercontent.com/u/59785863?v=4" width="100px;" alt=""/><br /><sub><b>Kohav Yadav</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Tanvi0701"><img src="https://avatars.githubusercontent.com/u/85347670?v=4" width="100px;" alt=""/><br /><sub><b>Tanvi Raut</b></sub></a><br /></td>
   </tr>
 </table>
 
