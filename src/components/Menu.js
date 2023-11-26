@@ -9,7 +9,7 @@ import {clearsearchstate} from '../actions/search';
 
 import Widgets from './Widgets.js';
 import {createJob, fetchMenus} from '../actions/job';
-import { fetchJobs,createMenu} from '../actions/job';
+import {fetchJobs,createMenu} from '../actions/job';
 import Job1 from './Job1';
 import { toast } from 'react-toastify';
 
@@ -22,6 +22,7 @@ class Menu extends Component {
           restname:'',
           restid: '',
           menuname:'',
+          category:'',
           quantity:'0',
           costmenu:'',
           ingredients: [{ inventory_id: '', quantity: '' }],
@@ -73,11 +74,11 @@ class Menu extends Component {
   handleSave = (e) => {
     e.preventDefault()
 
-    const {menuname,ingredients,costmenu} = this.state;
+    const {menuname,category,ingredients,costmenu} = this.state;
 
     const {user} = this.props.auth;
 
-    this.props.dispatch(createMenu(menuname,ingredients,costmenu))
+    this.props.dispatch(createMenu(menuname,category,ingredients,costmenu))
 
     this.formRef.current.reset()
 
@@ -85,6 +86,7 @@ class Menu extends Component {
       restname:'',
       restid: '',
       menuname:'',
+      category:'',
       quantity:'0',
       costmenu:'',
       ingredients: [{ inventory_id: '', quantity: '' }],
@@ -120,15 +122,29 @@ class Menu extends Component {
             
             
 
-            <div className="field">
-              <label>Menu Item Name</label>
-              <input
-                placeholder="Item Name"
-                type="text"
-                required
-                onChange={(e) => this.handleInputChange('menuname', e.target.value)}
-              />
+          <div className="field">
+            <label>Menu Item Name</label>
+            <input
+              placeholder="Item Name"
+              type="text"
+              required
+              onChange={(e) => this.handleInputChange('menuname', e.target.value)}
+            />
+          </div>
+
+          <div className="field">
+            <label>Category</label>
+            <div className='field'>
+            <select onChange={(e) => this.handleInputChange('category', e.target.value)
+            }>               
+                <option value="">Select Category</option>
+                <option value="Starter">Starters</option>
+                <option value="Main Course">Main Course</option>
+                <option value="Beverages">Beverages</option>
+                <option value="Dessert">Desserts</option>
+            </select>
             </div>
+          </div>
 
           <div className="field">
             <label>Item Price</label>
@@ -202,15 +218,13 @@ class Menu extends Component {
         </form>
 
          
-              <div style={{marginLeft:'23.5%',width:'650px'}}>
-        {menu.map((menu) => (
-          <Job1 menu={menu} />
-        ))}
+        <div style={{marginLeft:'23.5%',width:'650px'}}>
+            {menu.map((menu) => (
+              <Job1 menu={menu} />
+            ))}
         </div>  
         
-        </div>
-        
-           
+        </div>           
         );
     }
 }

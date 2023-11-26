@@ -2,12 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { createApplication , closeJob} from '../actions/job';
 
-class Job extends Component {
-    
-    
-
-      
-    
+class Job extends Component {  
     render() {
         const { job } = this.props;
         const {user} = this.props.auth;
@@ -18,10 +13,6 @@ class Job extends Component {
             <div className="post" key={job._id} style={{width:'50vw',marginLeft:'50px'}}>
               {user._id == job.restid? 
             <div className="post-header">
-              
-
-
-
                   <div >
                 <h4 style={{display:'inline-block',marginTop:'-12px'}}>Item : </h4> 
                 <span style={{marginLeft:'10px'}}>{job.itemname}</span>

@@ -5,12 +5,7 @@ import { connect } from 'react-redux';
 
 
 
-class Job1 extends Component {
-    
-    
-
-      
-    
+class Job1 extends Component { 
     render() {
         const { job } = this.props;
         const {menu } = this.props;
@@ -28,6 +23,11 @@ class Job1 extends Component {
                   <div >
                 <h4 style={{display:'inline-block',marginTop:'-12px'}}>Dish : </h4> 
                 <span style={{marginLeft:'10px'}}>{menu.menuname}</span>
+                  </div>
+
+                  <div >
+                <h4 style={{display:'inline-block',marginTop:'-12px'}}>Category : </h4> 
+                <span style={{marginLeft:'10px'}}>{menu.category}</span>
                   </div>
 
                   <div >

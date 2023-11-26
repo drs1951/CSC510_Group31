@@ -58,7 +58,7 @@ export function createJob(
   
 
   export function createMenu(
-    menuname,ingredients,costmenu
+    menuname,category,ingredients,costmenu
   ) {
     return (dispatch) => {
       
@@ -73,6 +73,7 @@ export function createJob(
         },
         body: JSON.stringify({
           menuname,
+          category,
           ingredients,
           costmenu
         }),
@@ -127,8 +128,6 @@ export function createJob(
     };
   }
 
-
-
   export function jobSuccess(job) {
     return {
       type: ADD_JOB,
@@ -142,8 +141,6 @@ export function createJob(
       menu,
     };
   }
-
-  
 
   export function orderSuccess(order) {
     return {
@@ -258,8 +255,6 @@ export function createJob(
         });
     };
   }
-  
-
 
 export function updateJobs(jobs) {
     return {
