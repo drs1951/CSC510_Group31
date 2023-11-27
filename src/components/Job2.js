@@ -19,7 +19,8 @@ class Job2 extends Component {
 
     const { isLoggedIn } = this.props.auth;
     const paypalUsername = 'atharv47';
-    const paypalPaymentLink = `https://www.paypal.me/${paypalUsername}/`;
+    const paypalPaymentLink = `https://www.paypal.me/${paypalUsername}/${order.Ordercost}`;
+    
 
     return (
 
@@ -37,7 +38,9 @@ class Job2 extends Component {
             <div >
 
               <h4 style={{ display: 'inline-block', marginTop: '-12px' }}>Order Id : </h4>
-              <span style={{ marginLeft: '10px' }}>{order._id}</span>
+              <span style={{ marginLeft: '10px' }}>{order._id} </span>
+              <h4 style={{ display: 'inline-block', marginTop: '-12px', marginLeft: '25px' }}> Cost : </h4>
+              <span style={{ marginLeft: '10px' }}>{order.Ordercost} </span>
 
             </div>
             <div>

@@ -95,12 +95,11 @@ export function createJob(
   }
   
   export function createOrder(
-    items
+    items, Ordercost
   ) {
     return (dispatch) => {
       
       const url = APIURLS.order();
-
       const token = localStorage.getItem('token');
       fetch(url, {
         method: "POST",
@@ -109,7 +108,7 @@ export function createJob(
           'Authorization': `Bearer ${token}`
         },
         body: JSON.stringify({
-          items
+          items, Ordercost
         }),
       })
         .then((response) => response.json())

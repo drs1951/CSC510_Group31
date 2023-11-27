@@ -71,9 +71,11 @@ class Order extends Component {
 
     const { items } = this.state;
 
+    const { totalCost } = this.state;
+
     const { user } = this.props.auth;
 
-    this.props.dispatch(createOrder(items))
+    this.props.dispatch(createOrder(items, totalCost))
 
     this.formRef.current.reset()
 
@@ -163,7 +165,7 @@ class Order extends Component {
                           const newIngredients = [...this.state.items];
                           newIngredients[index].quantity = e.target.value;
                           this.setState({ items: newIngredients });
-
+                          // this.state.totalCost+= newIngredients[index].cost;
                           if (newIngredients[index].id) {
                             newIngredients[index].cost = e.target.value * this.props.menu.find((ing) => ing._id === newIngredients[index].id).costmenu
                             this.setState({
@@ -188,6 +190,8 @@ class Order extends Component {
               placeholder="Quantity"
               type="text"
               value={`$ ${this.state.items.reduce((total, item) => {
+                this.state.totalCost =  total + item.cost;
+                console.log("Total cost " + this.state.totalCost);
                 return total + item.cost;
               }, 0)}`}
               required
