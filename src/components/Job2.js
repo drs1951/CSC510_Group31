@@ -8,10 +8,6 @@ import QRCode from 'qrcode.react';
 
 class Job2 extends Component {
 
-
-
-
-
   render() {
     const { job } = this.props;
     const { menu, order } = this.props;

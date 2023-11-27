@@ -79,6 +79,7 @@ code {
 }
 .post-header {
   padding: 10px 10px;
+  justify-content: center;
 }
 .post-avatar {
   display: flex;
@@ -782,7 +783,6 @@ nav .nav-links ul li:hover {
   border-radius: 15px;
   background-color: white;
   box-shadow: 0px 5px 7px rgba(0,0,0,0.2);
-  
 }
 
 
