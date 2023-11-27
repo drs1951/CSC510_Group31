@@ -980,3 +980,7 @@ box-sizing: border-box;
   position: relative;
   background-image: url('./background-SE.avif');
 }
+
+.inventory-row{
+  justify-content: center;
+}
