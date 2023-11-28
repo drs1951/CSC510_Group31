@@ -12,7 +12,7 @@ import { createJob, fetchMenus } from '../actions/job';
 import { fetchJobs, createMenu } from '../actions/job';
 import Job1 from './Job1';
 import { toast } from 'react-toastify';
-import { Rowing } from '@material-ui/icons';
+import { Flare, Rowing } from '@material-ui/icons';
 
 
 class Menu extends Component {
@@ -107,7 +107,7 @@ class Menu extends Component {
       <table  style={{width:'100%', padding: '3.5%'}}>
         <row style={{ display: 'flex', width: '100%'}}>
 
-          <form className="goal-form" style={{ width: '50%', height: 'fit-content' }} onSubmit={this.handleSave} ref={this.formRef}>   
+          <form className="goal-form" style={{ width: '45%', height: 'fit-content' }} onSubmit={this.handleSave} ref={this.formRef}>   
               
               <span className="login-signup-header" style={{ margin: "20px 0px" }}>
                 Add Menu Item
@@ -233,7 +233,7 @@ class Menu extends Component {
               </div>
           </form>
                 
-          <div style={{ width: '25%', marginLeft:'35px'}}>
+          <div style={{ width: '55%', height:'fit-content', marginLeft:'15px', display:'flex'}}>
             {
               menu.map((menu) => (
                 <Job1 menu={menu} />

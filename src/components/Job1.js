@@ -13,7 +13,7 @@ class Job1 extends Component {
 
     const { isLoggedIn } = this.props.auth;
     return (
-      <div className="post" key={menu.restname} style={{marginBottom:'15px' }}>
+      <div className="post" key={menu.restname} style={{marginBottom:'15px', marginRight:'15px' }}>
         {1>0? 
         <div className="post-header">
       
