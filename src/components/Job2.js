@@ -19,33 +19,25 @@ class Job2 extends Component {
     
 
     return (
-
-      <div className="post" style={{ width: '50vw', marginLeft: '50px' }}>
+      
+      <div className="post" style={{width:'80%', marginBottom:'3%'}}>
         {1 > 0 ?
           <div className="post-header">
-
-
-
-            {/* <div >
-                <h4 style={{display:'inline-block',marginTop:'-12px'}}>Dish : </h4> 
-                <span style={{marginLeft:'10px'}}>{menu.menuname}</span>
-                  </div> */}
-
+            
             <div >
-
               <h4 style={{ display: 'inline-block', marginTop: '-12px' }}>Order Id : </h4>
               <span style={{ marginLeft: '10px' }}>{order._id} </span>
               <h4 style={{ display: 'inline-block', marginTop: '-12px', marginLeft: '25px' }}> Cost : </h4>
               <span style={{ marginLeft: '10px' }}>{order.Ordercost} </span>
-
             </div>
+
             <div>
               <QRCode value={paypalPaymentLink} />
             </div>
 
-
             <div >
               <h4 style={{ display: 'inline-block', marginTop: '-12px' }}>Item Ordered</h4>
+              
               <div className='ingredient_container'>
                 <div className='ingredient_tab'>
                   <div className='field'>
@@ -58,6 +50,7 @@ class Job2 extends Component {
                     <span style={{ marginLeft: '10px', fontWeight: "bold" }}>Quantity</span>
                   </div>
                 </div>
+
                 {
                   order.items.map((ingredient, index) => {
                     return (
@@ -75,14 +68,13 @@ class Job2 extends Component {
                     )
                   })
                 }
+
               </div>
             </div>
-
-
-
-
-          </div> : []}
+          </div> : []
+        }
       </div>
+
     );
   }
 }
