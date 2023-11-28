@@ -107,126 +107,110 @@ class Order extends Component {
 
 
     return (
-      <div>
+      <table  style={{width:'100%', padding: '3.5%'}}>
+        <row class="inventory-row" style={{ display: 'flex', width: '100%'}}> 
 
-        <form className="goal-form" style={{ width: '650px', height: 'fit-content', marginLeft: '30%' }} onSubmit={this.handleSave} ref={this.formRef}>
-          <span className="login-signup-header" style={{ margin: "20px 0px" }}>Add Order</span>
-          {error && <div className="alert error-dailog">{error}</div>}
+          <form className="goal-form" style={{ width: '45%', height: 'fit-content' }} onSubmit={this.handleSave} ref={this.formRef}>
+            <span className="login-signup-header" style={{ margin: "20px 0px" }}>
+              Add Order
+            </span>
+            
+            {error && <div className="alert error-dailog">{error}</div>}
 
+            <span className='login-signup-header' style={{ fontSize: "22px", marginBottom: "20px" }}>Item Ordered</span>
 
-          {/* <div className="field">
-            <label>Item Price</label>
-            <input
-              placeholder="Price"
-              type="text"
-              required
-              onChange={(e) => this.handleInputChange('costmenu', e.target.value)}
-            />
-          </div> */}
+            <div className='ingredient_used_container' style={{ width: "100%" }}>
+              {
+                items.map((odr, index) => {
+                  return (
+                    <div className='ingredient_used'>
+                      <div key={index} className='field'>
+                        <label>Ingredient Name</label>
 
-          <span className='login-signup-header' style={{ fontSize: "22px", marginBottom: "20px" }}>Item Ordered</span>
-
-          <div className='ingredient_used_container' style={{ width: "100%" }}>
-            {
-              items.map((odr, index) => {
-                return (
-                  <div className='ingredient_used'>
-                    <div key={index} className='field'>
-                      <label>Ingredient Name</label>
-                      <select onChange={(e) => {
-                        const newIngredients = [...this.state.items];
-                        newIngredients[index].id = e.target.value;
-                        this.setState({ items: newIngredients });
-
-                        if (newIngredients[index].quantity) {
-                          newIngredients[index].cost = newIngredients[index].quantity * this.props.menu.find((ing) => ing._id === newIngredients[index].id).costmenu
-                          this.setState({
-                            items: newIngredients
-                          })
-                        }
-                      }
-                      }>
-                        <option value="">Select Item</option>
-                        {menu.length > 0 && menu.map((jb) => {
-                          return (
-                            <option value={jb._id} disabled={this.state.items.findIndex((ing) => ing.id === jb._id) > -1 ? true : false}>{jb.menuname}</option>
-                          )
-                        })}
-                      </select>
-                    </div>
-                    <div key={index} className='field'>
-                      <label>Quantity</label>
-                      <input
-                        placeholder="Quantity"
-                        type="number"
-                        required
-                        min="1"
-                        onChange={(e) => {
+                        <select onChange={(e) => {
                           const newIngredients = [...this.state.items];
-                          newIngredients[index].quantity = e.target.value;
+                          newIngredients[index].id = e.target.value;
                           this.setState({ items: newIngredients });
-                          // this.state.totalCost+= newIngredients[index].cost;
-                          if (newIngredients[index].id) {
-                            newIngredients[index].cost = e.target.value * this.props.menu.find((ing) => ing._id === newIngredients[index].id).costmenu
+
+                          if (newIngredients[index].quantity) {
+                            newIngredients[index].cost = newIngredients[index].quantity * this.props.menu.find((ing) => ing._id === newIngredients[index].id).costmenu
                             this.setState({
                               items: newIngredients
                             })
                           }
+                          }}>
+                          
+                          <option value="">Select Item</option>
+                          {menu.length > 0 && menu.map((jb) => {
+                            return (
+                              <option value={jb._id} disabled={this.state.items.findIndex((ing) => ing.id === jb._id) > -1 ? true : false}>{jb.menuname}</option>
+                            )
+                          })}
 
+                        </select>
 
-                        }}
-                      />
+                      </div>
+
+                      <div key={index} className='field'>
+                        <label>Quantity</label>
+                        <input
+                          placeholder="Quantity"
+                          type="number"
+                          required
+                          min="1"
+                          onChange={(e) => {
+                            const newIngredients = [...this.state.items];
+                            newIngredients[index].quantity = e.target.value;
+                            this.setState({ items: newIngredients });
+                            // this.state.totalCost+= newIngredients[index].cost;
+                            if (newIngredients[index].id) {
+                              newIngredients[index].cost = e.target.value * this.props.menu.find((ing) => ing._id === newIngredients[index].id).costmenu
+                              this.setState({
+                                items: newIngredients
+                              })
+                            }
+                          }}/>
+                      </div>
                     </div>
-                  </div>
-                )
-              })
-            }
+                  )
+                })
+              }
 
+            </div>
 
+            <div className="field">
+              <label>Total Cost</label>
+              <input
+                placeholder="Quantity"
+                type="text"
+                value={`$ ${this.state.items.reduce((total, item) => {
+                  this.state.totalCost =  total + item.cost;
+                  console.log("Total cost " + this.state.totalCost);
+                  return total + item.cost;
+                }, 0)}`}
+                required
+                disabled/>
+            </div>
+
+            <div className="field">
+              <button onClick={this.addMoreIngredient} className='button save-btn' type="button" style={{ width: "30%", fontSize: '16px', borderRadius: "8px" }}>Add More Item</button>
+            </div>
+
+            <div className="field">
+              <button className="button save-btn" type="submit" >Place Order</button>
+            </div>
+
+          </form>
+
+          <div style={{width: '45%', marginLeft:'5%'}}>
+            {order.map((ord) => (
+              <Job2 order={ord} />
+            ))}
           </div>
-          <div className="field">
-            <label>Total Cost</label>
-            <input
-              placeholder="Quantity"
-              type="text"
-              value={`$ ${this.state.items.reduce((total, item) => {
-                this.state.totalCost =  total + item.cost;
-                console.log("Total cost " + this.state.totalCost);
-                return total + item.cost;
-              }, 0)}`}
-              required
-              disabled
-            // onChange={(e) => this.handleInputChange('quantity', e.target.value)}
-            />
-          </div>
-          <div className="field">
-            <button onClick={this.addMoreIngredient} className='button save-btn' type="button" style={{ width: "30%", fontSize: '16px', borderRadius: "8px" }}>Add More Item</button>
-          </div>
 
-
-
-
-
-          <div className="field">
-            <button className="button save-btn" type="submit" >Place Order</button>
-          </div>
-
-
-
-
-        </form>
-
-
-        <div style={{ marginLeft: '23.5%', width: '650px' }}>
-          {order.map((ord) => (
-            <Job2 order={ord} />
-          ))}
-        </div>
-
-      </div>
-
-
-    );
+        </row>
+      </table>
+    );        
   }
 }
 
