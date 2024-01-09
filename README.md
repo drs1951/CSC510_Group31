@@ -203,7 +203,7 @@ npm start
  ## Run Test cases
 
  ### [Frontend Test Cases Guide](https://github.com/drs1951/CSC510_Group31/blob/main/docs/frontend_testing.md)
- ### [Backend Test Cases Guide](https://github.com/drs1951/86_Backend/blob/main/docs/backend_teting.md)
+ ### [Backend Test Cases Guide](https://github.com/drs1951/86_Backend/blob/main/docs/backend_testing.md)
  
 
 
