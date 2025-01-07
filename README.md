@@ -222,7 +222,7 @@ If you encounter any issues during the installation process, feel free to reach 
 # Contributors
   <table>
   <tr>
-    <td align="center"><a href="https://github.com/shantanu109"><img src="https://avatars.githubusercontent.com/u/54364517?v=4" width="100px;" alt=""/><br /><sub><b>Devansh Shah</b></sub></a></td>
+    <td align="center"><a href="https://github.com/shantanu109"><img src="https://avatars.githubusercontent.com/u/54364517?v=4" width="100px;" alt=""/><br /><sub><b>Priya Shah</b></sub></a></td>
     <td align="center"><a href="https://github.com/gargvarun250"><img src="https://avatars.githubusercontent.com/u/57554284?v=4" width="100px;" alt=""/><br /><sub><b>Shyamal Gandhi</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/Sahil-Nande"><img src="https://avatars.githubusercontent.com/u/59785863?v=4" width="100px;" alt=""/><br /><sub><b>Jay Patel</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/urmi6899"><img src="https://avatars.githubusercontent.com/u/85347670?v=4" width="100px;" alt=""/><br /><sub><b>Shail Shah</b></sub></a><br /></td>
